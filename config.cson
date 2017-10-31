@@ -1,0 +1,49 @@
+"*":
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+      "node_modules_temp"
+      "assets"
+      "build-output"
+      "bin"
+      "fonts"
+      "font-awesome"
+      "images"
+      "build"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    autoIndentOnPaste: false
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabType: "hard"
+  "exception-reporting":
+    userId: "2010c646-407a-9b97-08f0-cf11051c1ef9"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "linter-eslint":
+    fixOnSave: true
+  "linter-flow":
+    executablePath: "node_modules/.bin/flow"
+  "linter-ui-default":
+    showPanel: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      isDisabledIfNotInPackageJson: true
+    prettierEslintOptions: {}
+    prettierOptions:
+      printWidth: 120
+      trailingComma: "all"
+      useTabs: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,8 @@
+.apm
+packages
+blob-store
+compile-cache
+recovery
+storage
+.node-gyp
+nohup.out
