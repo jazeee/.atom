@@ -17,11 +17,12 @@
       "font-awesome"
       "images"
       "build"
-      "flow-typed"
+      "flow-typed/npm"
     ]
     telemetryConsent: "limited"
   editor:
     autoIndentOnPaste: false
+    fontSize: 13
     scrollSensitivity: 80
     showIndentGuide: true
     showInvisibles: true
@@ -37,8 +38,7 @@
     fixOnSave: true
   "linter-flow":
     executablePath: "node_modules/.bin/flow"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "prettier-atom":
     formatOnSaveOptions:
       isDisabledIfNotInPackageJson: true
@@ -47,7 +47,6 @@
       printWidth: 120
       trailingComma: "all"
       useTabs: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
