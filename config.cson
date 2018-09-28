@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "react"
+    ]
     ignoredNames: [
       ".git"
       ".hg"
@@ -26,19 +29,21 @@
     scrollSensitivity: 80
     showIndentGuide: true
     showInvisibles: true
-    softTabs: false
     softWrap: true
-    tabType: "hard"
+    tabType: "soft"
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "2010c646-407a-9b97-08f0-cf11051c1ef9"
   "git-diff":
     showIconsInEditorGutter: true
+  "language-babel":
+    autoIndentJSX: true
   "linter-eslint":
     fixOnSave: true
   "linter-flow":
     executablePath: "node_modules/.bin/flow"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "prettier-atom":
     formatOnSaveOptions:
       isDisabledIfNotInPackageJson: true
